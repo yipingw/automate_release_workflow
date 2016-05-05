@@ -62,7 +62,7 @@ gulp.task('release', function (callback) {
     'bump-version',
     'changelog',
     'commit-changes',
-    'push-chnages',
+    'push-changes',
     'create-new-tag',
     'github-release',
     function (error) {
